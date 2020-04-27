@@ -18,6 +18,7 @@ body {
     background-color:gray!important;
     background-image: none;
 }
+
 .logo-image {
     width: 45px;
     height: 45px;
@@ -139,4 +140,18 @@ li > a.active:before{
 }
 #contactHead {
   margin-top: 80px; font-family: 'Noto Sans TC', sans-serif;
+}
+.proj-info {
+  padding-top: 300px;
+  color: white;
+}
+.carousel-section {
+  max-height: 300px;
+  padding-top: 25px;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+.proj-head {
+  padding-top: 100px;
+  color: white;
 }

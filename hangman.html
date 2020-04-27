@@ -5,72 +5,62 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Avinash Upadhyaya K R</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
+    <title>Avinash Upadhyaya K R | Hangman</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <style>
-    .dropdown-menu > a:hover {
-        background-color:gray !important;
-        background-image: none;
-      }
-    .logo-image{
-        width: 45px;
-        height: 45px;
-        border-radius: 50%;
-        overflow: hidden;
-        margin-top: -6px;
-      }
     .slide1{
-        background-image: url("images/hangman1.png");
-        height: 500px;
-        width: 100%;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-      .slide2{
-        background-image: url("images/hangman2.png");
-        height: 500px;
-        width: 100%;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-      .slide3{
-        background-image: url("images/hangman3.png");
-        height: 500px;
-        width: 100%;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-      .slide4{
-        background-image: url("images/hangman4.png");
-        height: 500px;
-        width: 100%;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-      .slide5{
-        background-image: url("images/hangman5.png");
-        height: 500px;
-        width: 100%;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-      .carousel-control-prev-icon{
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
-      }
-      .carousel-control-next-icon{
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
-      }
-      .carousel-indicators > li {
-        background-color: rgb(187, 187, 187);
-      }
-      .carousel-indicators .active{
-        background-color: rgb(128, 128, 128) !important;
-      }
+      background-image: url("images/hangman1.png");
+      height: 500px;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .slide2{
+      background-image: url("images/hangman2.png");
+      height: 500px;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .slide3{
+      background-image: url("images/hangman3.png");
+      height: 500px;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .slide4{
+      background-image: url("images/hangman4.png");
+      height: 500px;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .slide5{
+      background-image: url("images/hangman5.png");
+      height: 500px;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .carousel-control-prev-icon{
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+    }
+    .carousel-control-next-icon{
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+    }
+    .carousel-indicators > li {
+      background-color: rgb(187, 187, 187);
+    }
+    .carousel-indicators .active{
+      background-color: rgb(128, 128, 128) !important;
+    }
     </style>
 </head>
-<body style="background-color: black;">
+<body>
     <!-- content -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: rgba(43, 41, 41, 0.5);">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
       <a class="navbar-brand" href="index.html"><img src="images/profile.png" alt="" class="logo-image"></img>
         &nbsp;&nbsp;&nbsp;&nbsp;Avinash Upadhyaya K R</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -86,19 +76,19 @@
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Projects
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgb(43, 41, 41);">
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="#" style="color: white;">Hangman</a>
               <a class="dropdown-item" href="music.html" style="color: white;">Music Concert</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact Info</a>
+            <a class="nav-link" href="index.html#ContactInfo">Contact Info</a>
           </li>
         </ul>
       </div>
     </nav>
-    <div class="container" style="padding-top: 100px; color: white;"><div class="page-header"><h1>Hangman</h1></div><br></div>
-    <div class="container" style="max-height: 300px; padding-top: 25px; padding-left: 250px; padding-right: 250px;">
+    <div class="container proj-head"><div class="page-header"><h1>Hangman</h1></div><br></div>
+    <div class="container carousel-section">
       
         <div id="carouselHangman" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -150,7 +140,7 @@
             </a>
           </div>
     </div>
-    <div class="container" style="padding-top: 300px; color: white;">
+    <div class="container proj-info">
       A GUI game of the classic pen and paper Hangman which can be played single player or multiplayer This project was implemented in Java. Java swing and socket programming was used for the development of the project.    </div>
     
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

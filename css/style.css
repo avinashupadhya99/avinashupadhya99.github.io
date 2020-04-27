@@ -97,6 +97,9 @@ body {
   font-size: 16px;
   color: #8c8c8c;
 }
+.proj-img {
+  object-fit: contain;
+}
 #projHead {
   margin-top: 80px; 
   color: rgb(192, 192, 192); 

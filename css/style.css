@@ -162,3 +162,7 @@ li > a.active:before{
   padding-top: 150px;
   color: white;
 }
+
+.badge-dark a{
+  text-decoration: none;
+}

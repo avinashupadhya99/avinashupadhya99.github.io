@@ -162,6 +162,7 @@ li > a.active:before{
   color: white;
 }
 .proj-info-custom {
+  font-size: 1.25rem;
   padding-top: 150px;
   color: white;
 }

@@ -148,6 +148,7 @@ li > a.active:before{
   margin-top: 80px; font-family: 'Noto Sans TC', sans-serif;
 }
 .proj-info {
+  font-size: 1.25rem;
   padding-top: 300px;
   color: white;
 }
